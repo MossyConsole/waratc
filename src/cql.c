@@ -5,6 +5,8 @@ char currentCommand[1000];
 
 int main()
 {
+    printf("Welcome to CQL! SQL built in C. To quit, type \"q\"\n\n");
+
     for (int i = 0; i < 1000; i++)
     {
         scanf("%s", currentCommand);
